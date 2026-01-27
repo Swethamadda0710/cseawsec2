@@ -1,6 +1,6 @@
 const express =require ('express');
 const app = express();
- app.get("/homepage",(req,res)=>{
+ app.get("/home",(req,res)=>{
     res.send("welcome");
  });
 app.listen(3000, () => {
